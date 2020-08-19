@@ -1,0 +1,75 @@
+.headersummary {
+    background-color: $off-white;
+    min-height: 100%;
+    line-height: 60px;
+    color:$main-color;
+    display: flex;
+    font-weight: bold;
+    margin-right: 30px auto;
+    padding-left: 5%;
+    font-size: 20px;
+    .freestyle{
+        font-family:'Ubuntu', sans-serif;
+        padding-left: 7% ;
+        color:$text-black;
+        font-size: 13px;
+    }
+    .freestyle2{
+        font-family:'Ubuntu', sans-serif;
+        padding-left: 3%;
+        color:$text-black;
+        font-size: 13px;
+    }
+    
+}
+.mainsubmit{
+    margin-right: 30px auto;
+    padding-left: 5%;
+    color:$text-black;
+    font-weight: bold;
+    font-size: 18px;
+    .maintext{
+        font-size: 13px;
+        font-weight: normal;
+    }
+    .return-button{
+        font-family: 'Ubuntu', sans-serif;
+        background-color:$main-color;
+        color:$off-white;
+        height: 10%;
+        width: 12%;
+        cursor: pointer;
+        display: block;
+        padding: 10px 10px;
+        border-radius: $button-radius;
+    }
+    .return-button:hover{
+        background-color: darken($main-color,10%);
+        box-shadow: $shadow;
+    }
+}
+.footersummary{
+    background-color: $main-color;
+    color:$off-white;
+    padding-left: 5%;
+    min-height: 160%;
+    display: flex;
+    font-size: 15px;
+    line-height: 40px;
+    padding-top: 3%;
+    .freestyle3{
+        font-family:'Ubuntu', sans-serif;
+        padding-left: 20%;
+        line-height: 40px;
+    }
+    li{
+        list-style-type: none;
+    }
+}
+.codelynx{
+    background-color: $codecolor;
+    padding-left: 5%;
+    color:$off-white;
+    font-size: 15px;
+    line-height: 50px;
+}
